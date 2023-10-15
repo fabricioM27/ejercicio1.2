@@ -46,7 +46,7 @@
                 <Border.StrokeShape>
                     <RoundRectangle CornerRadius="10"/>
                 </Border.StrokeShape>
-                <Button Text="Enviar datos" x:Name="btndatos" Clicked="btndatos_Clicked"  Margin="0,20,0,10"  HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200" />
+                <Button Text="Agregar" x:Name="btndatos" Clicked="btndatos_Clicked"  Margin="0,20,0,10"  HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200" />
             </Border>
 
             

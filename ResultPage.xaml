@@ -5,7 +5,7 @@
              Title="ResultPage">
     <VerticalStackLayout>
         <StackLayout>
-            <Label Text="Resultado del envio" FontSize="Title" Padding="30,50,30,10"/>
+            <Label Text="Datos Agregados" FontSize="Title" Padding="30,50,30,10"/>
 
             <Label Text="{Binding nombre}" HorizontalOptions="FillAndExpand" Margin="50,50,0,0" FontSize="15" TextColor="Black"/>
             <Label Text="{Binding apellido}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
