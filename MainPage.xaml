@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejercicio1._2.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Border>
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Image Source="uth.jpg" HeightRequest="200" Aspect="AspectFill" HorizontalOptions="FillAndExpand"/>
+            </Border>
+            <Label Text="Ejercicio 1.2" FontSize="Title" Padding="30,10,30,10"/>
+            <Label Text="Envio de datos" FontSize="16" Padding="30,0,30,0"/>
+
+            <Border>
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="txtnombres" Keyboard="Text" Placeholder="Indique sus nombres"></Entry>
+            </Border>
+
+            <Border>
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="txtapellidos" Keyboard="Text" Placeholder="Indique sus apellidos"></Entry>
+            </Border>
+
+            <Border>
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="5"/>
+            </Border.StrokeShape>
+            <DatePicker x:Name="txtfechanac" Format="yyyy-MM-dd"></DatePicker>
+            </Border>
+
+            <Border>
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Entry x:Name="txtcorreo" Keyboard="Email" Placeholder="Ingrese su correo electronico"></Entry>
+            </Border>
+
+            <Border>
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Button Text="Enviar datos" x:Name="btndatos" Clicked="btndatos_Clicked"  Margin="0,20,0,10"  HorizontalOptions="Center" Background="MediumPurple" TextColor="White" WidthRequest="200" />
+            </Border>
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

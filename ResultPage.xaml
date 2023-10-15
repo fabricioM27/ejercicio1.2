@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejercicio1._2.ResultPage"
+             Title="ResultPage">
+    <VerticalStackLayout>
+        <StackLayout>
+            <Label Text="Resultado del envio" FontSize="Title" Padding="30,50,30,10"/>
+
+            <Label Text="{Binding nombre}" HorizontalOptions="FillAndExpand" Margin="50,50,0,0" FontSize="15" TextColor="Black"/>
+            <Label Text="{Binding apellido}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
+            <Label Text="{Binding fechanac}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
+            <Label Text="{Binding correo}" HorizontalOptions="FillAndExpand" Margin="50,0,0,0" FontSize="15" TextColor="Black"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
